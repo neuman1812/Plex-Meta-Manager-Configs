@@ -1,0 +1,108 @@
+                                      ######################################################
+                                      #                TV Collections Studios              #
+                                      ######################################################
+###########################
+#        Templates        #
+###########################
+templates:
+    Network:
+        url_poster: <<poster>>
+        sort_title: +++++++_<<collection_name>>
+        collection_order: alpha
+        tmdb_network: <<network>>
+
+collections:
+            ################################
+            ###### Networks ######
+            ################################
+ ABC:
+        template: {name: Network, poster: https://theposterdb.com/api/assets/113115}
+        tmdb_network: 2
+        summary: Shows Aired on ABC
+ AMC:
+        template: {name: Network, poster: https://theposterdb.com/api/assets/113118}
+        tmdb_network: 174
+        summary: Shows Aired on AMC
+ BBC:
+        template: {name: Network, poster: https://theposterdb.com/api/assets/113123}
+        tmdb_network: 4
+        summary: Shows Aired on BBC One
+ CBS:
+        template: {name: Network, poster: https://theposterdb.com/api/assets/113138}
+        tmdb_network: 16
+        summary: Shows Aired on CBS
+ Discovery:
+        template: {name: Network, poster: https://theposterdb.com/api/assets/113157}
+        tmdb_network: "10, 22, 64, 106, 244, 626, 670, 1079, 1287, 1534, 2087, 2480, 2692, 3045, 3591, 3900, 3953, 4462, 4741"
+        summary: Discovery Orginal Shows
+ FOX:
+        template: {name: Network, poster: https://theposterdb.com/api/assets/113173}
+        tmdb_network: 19
+        summary: Shows Aired on FOX
+ Hallmark Channel:
+        template: {name: Network, poster: https://theposterdb.com/api/assets/49399}
+        tmdb_network: "384, 3438"
+        summary: Halmark Orginal Shows
+ NBC:
+        template: {name: Network, poster: https://theposterdb.com/api/assets/113217}
+        tmdb_network: 6
+        summary: Shows Aired on NBC
+ SyFy:
+        template: {name: Network, poster: https://theposterdb.com/api/assets/113267}
+        tmdb_network: "77, 3701"
+        summary: Shows Aired on SYFY
+
+            ################################
+            ###### Premium Networks ######
+            ################################
+ HBO:
+        template: {name: Network, poster: https://theposterdb.com/api/assets/113186}
+        tmdb_network: 49
+        summary: HBO Orginal Shows
+ Showtime:
+        template: {name: Network, poster: https://theposterdb.com/api/assets/113257}
+        tmdb_network: 67
+        summary: Showtime Orginal Shows
+ Starz:
+        template: {name: Network, poster: https://theposterdb.com/api/assets/113265}
+        tmdb_network: 318
+        summary: Starz Orginal Shows
+ Cinemax:
+        template: {name: Network, poster: https://theposterdb.com/api/assets/113140}
+        tmdb_network: 359
+        summary: Starz Orginal Shows
+            ################################
+            ###### STREAMING NETWORKS ######
+            ################################
+ Amazon:
+        template: {name: Network, poster: https://theposterdb.com/api/assets/204462}
+        tmdb_network: 1024
+        summary: Amazon Orginal Shows
+ Apple TV+:
+        template: {name: Network, poster: https://theposterdb.com/api/assets/113121}
+        tmdb_network: 2552
+        summary: Apple TV+ Shows
+ Crackle:
+        template: {name: Network, poster: https://theposterdb.com/api/assets/113262}
+        tmdb_network: 928
+        summary: Crackl TV Shows
+ Disney+:
+        template: {name: Network, poster: https://theposterdb.com/api/assets/113160}
+        tmdb_network: 2739
+        summary: Disney+ Orginal Shows
+ Discovery+:
+       template: {name: Network, poster: https://theposterdb.com/api/assets/163452}
+       tmdb_network: 4440
+       summary: DisCovery+ Orginal Shows
+ Hulu:
+        template: {name: Network, poster: https://theposterdb.com/api/assets/204450}
+        tmdb_network: 453
+        summary: Hulu Orginal Shows
+ Netflix:
+        template: {name: Network, poster: https://theposterdb.com/api/assets/204455}
+        tmdb_network: 213
+        summary: Netflix Orginal Shows
+ Youtube TV:
+        template: {name: Network, poster: https://theposterdb.com/api/assets/113301}
+        tmdb_network: 247
+        summary: Youtube TV Shows
